@@ -34,44 +34,20 @@ This project helps users understand what salary they might expect based on their
 ## 🚀 How to Run
 
 1. Clone the repo:
-
+   git clone https://github.com/your-username/employee-salary-predictor
+   cd employee-salary-predictor
+   
 2. Install dependencies:
+   pip install -r requirements.txt
 
 3. Train the model (if not already):
+   python train_salary_model_extended.py
 
 4. Start the Flask app:
-
-5. Open in browser: http://127.0.0.1:5000
-
----
-
-## ✨ Features
-
-- 📄 Upload a resume and auto-fill form fields
-- 💼 Select role, skills, and education level
-- 💰 Predict salary based on ML model
-- 🎯 Recommend missing skills for the selected role
-- 📈 Visualize salary trend by experience (2025–2029)
-
----
-
-## 📂 Project Structure
-
-
----
-
-## ✨ Features
-
-- 📄 Upload a resume and auto-fill form fields
-- 💼 Select role, skills, and education level
-- 💰 Predict salary based on ML model
-- 🎯 Recommend missing skills for the selected role
-- 📈 Visualize salary trend by experience (2025–2029)
-
----
-
-## 📂 Project Structure
-
+   python main.py
+   
+5. Open in browser:
+   http://127.0.0.1:5000
 
 ---
 
@@ -120,10 +96,7 @@ employee-salary-predictor/
 
 ---
 
-## 👩‍💻 Made By
 
-**Hana Saeed**  
-BCA, KL University – Department of Computer Applications  
 
 
 
